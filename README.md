@@ -20,6 +20,15 @@
   </p>
 
   <h2>Select Sauce</h2>
+  <input type="radio" id="marinara" name="sauce" value="Marinara">
+  <label for="marinara">Marinara</label> 
+  <input type="radio" id="Ranch" name="sauce" value="Ranch">
+  <label for="ranch">Ranch</label>
+  <input type="radio" id="No Sauce" name="sauce" value="No Sauce">
+  <label for="No Sauce">No Sauce</label>
+
+  
+  <h2>Select Toppings</h2>
   <input type="checkbox" id="topping1" name="topping1" value="Pepperoni">
   <label for="topping1"> Pepperoni</label><br>
   <input type="checkbox" id="topping2" name="topping2" value="Sausage">
@@ -36,6 +45,6 @@
   <h2>Addtional Instructions</h2>
   <label for="instructions">
   <input type="text" placeholder="Add instructions">
-  
+  <br>
   <input type="submit" value="Submit">
 </form>
