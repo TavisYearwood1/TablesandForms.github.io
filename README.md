@@ -1,23 +1,25 @@
 # TablesandForms.github.io
 
-<form>
+
   <h1>Pizza Ordering Form</h1>
   <br>
-  <h2>Contact Information</h2>
-  <p>Name: <input type="text"> </p>
-  <p>Phone: <input type="text"> </p>
-  <p>Email: <input type="text"> </p>
-  <br>
-  <h2>Select Pizza Size</h2>
-  <p>
-    <label for="size"> Select Size:</label>
-    <select name="size" id="size">
-      <option value="Small">Small</option>
-      <option value="Medium">Medium</option>
-      <option value="Large">Large</option>
-      <option value="X-tra Large">X-tra Large</option>
-    </select>
-  </p>
+<form>
+  <body>
+    <h2>Contact Information</h2>
+    <p>Name: <input type="text"> </p>
+    <p>Phone: <input type="text"> </p>
+    <p>Email: <input type="text"> </p>
+    <br>
+    <h2>Select Pizza Size</h2>
+    <p>
+      <label for="size"> Select Size:</label>
+      <select name="size" id="size">
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+        <option value="X-tra Large">X-tra Large</option>
+      </select>
+    </p>
 
   <h2>Select Sauce</h2>
   <input type="radio" id="marinara" name="sauce" value="Marinara">
@@ -48,3 +50,11 @@
   <br>
   <input type="submit" value="Submit">
 </form>
+    
+<p>List of My Favorite Video Games</p>
+<table>
+  <th>Title</th>
+  <th>Developer</th>
+  <th>Year</th>
+</table>
+</body>
