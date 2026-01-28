@@ -28,7 +28,6 @@
   <label for="ranch">Ranch</label>
   <input type="radio" id="No Sauce" name="sauce" value="No Sauce">
   <label for="No Sauce">No Sauce</label>
-
   
   <h2>Select Toppings</h2>
   <input type="checkbox" id="topping1" name="topping1" value="Pepperoni">
@@ -53,8 +52,31 @@
     
 <p>List of My Favorite Video Games</p>
 <table>
+<tr>
   <th>Title</th>
   <th>Developer</th>
   <th>Year</th>
+</tr>
+<tr>
+  <td rowspan = 3>Bungie
+  <td> Halo 1 </td>
+  <td> 2001 </td>
+</tr>
+<tr>
+  <td> Halo 2 </td>
+  <td> 2004 </td>
+</tr>
+<tr>
+  <td> Halo 3 </td>
+  <td> 2007 </td>
+</tr>
+<tr> 
+  <td> Mojang</td>
+  <td> Minecraft </td>
+  <td> 2011 </td>
+</tr>
+<tr>
+  <td colspan = 3> Count = 4 
+</tr>
 </table>
 </body>
