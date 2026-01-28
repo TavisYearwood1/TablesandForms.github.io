@@ -1,6 +1,5 @@
 # TablesandForms.github.io
 
-
   <h1>Pizza Ordering Form</h1>
   <br>
 <form>
@@ -48,7 +47,6 @@
   <input type="text" placeholder="Add instructions">
   <br>
   <input type="submit" value="Submit">
-</form>
     
 <p>List of My Favorite Video Games</p>
 <table>
@@ -79,4 +77,3 @@
   <td colspan = 3> Count = 4 
 </tr>
 </table>
-</body>
